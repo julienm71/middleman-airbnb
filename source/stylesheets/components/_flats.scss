@@ -1,0 +1,92 @@
+.banner-flat {
+  color: white;
+  text-align: center;
+  height: 50vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+    p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: $white;
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
+}
+
+.container {
+  display:flex;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  background-color: $white;
+  // height:100vh;
+}
+
+.header-flat {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  .owner-avatar {
+  height: 100px;
+  width: 100px;
+  margin:0px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  }
+  h1 {
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight:bold;
+  }
+  .fa-star {
+    color: $yellow;
+  }
+  .header-flat-img {
+    padding:20px;
+  }
+}
+
+.header-form {
+  margin: 10px;
+  padding:10px;
+  .form-flat {
+
+  }
+  label {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  // .form {
+
+  // }
+  form h1 {
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight:bold;
+  }
+
+  form .btn {
+    width: 100%;
+    line-height: 30px;
+  }
+}
+
+#flat-description {
+  background: #F5F5F5;
+  padding: 50px 0;
+  padding-bottom: 50px;
+  padding-bottom: 100px;
+  font-size: 14px;
+  color: #000000;
+}
+
+#flat-data {
+  font-weight: normal;
+  font-size: 12px;
+  color: #797373;
+}
