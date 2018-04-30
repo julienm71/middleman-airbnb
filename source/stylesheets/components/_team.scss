@@ -1,0 +1,32 @@
+.members {
+  height: 100vh;
+  text-align:center;
+  margin: 10px 0px 0px 0px;
+  padding: 175px;
+  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
+}
+
+.members h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  color: rgba(0,0,0,0.7);
+}
+
+.members h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.6);
+}
+
+.members .fa-heart {
+color: #D23333;
+}
+
+.team-member {
+  height: 200px;
+  width: 200px;
+  margin:0px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
